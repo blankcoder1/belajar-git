@@ -84,8 +84,8 @@
                         <div class="col-auto">
                             <label class="form-label">Tipe Driver</label>
                             <select class="form-select" id="tipedriver">
-                                <option value="true">Dengan Sopir</option>
-                                <option value="false">Tanpa Sopir (Lepas Kunci)</option>
+                                <option value="Dengan Supir">Dengan Sopir</option>
+                                <option value="Lepas Kunci">Tanpa Sopir (Lepas Kunci)</option>
                             </select>
                         </div>
                         <div class="col-auto">
@@ -101,7 +101,7 @@
                             <input type="number" id="penumpang" class="form-control" placeholder="Jumlah Penumpang">
                         </div>
                         <div class="col-auto">
-                            <button type="submit" id="cari" class="btn btn-success">Cari Mobil</button>
+                            <button type="button" id="cari" class="btn btn-success">Cari Mobil</button>
                         </div>
                     </form>
                 </div>
@@ -109,6 +109,15 @@
         </div>
     </section>
 
+    <section id="result">
+        <div class="container">
+            <div class="row" id="searchresult">
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/getCars.js"></script>
     <script src="assets/js/script.js"></script>    
     
 </body>
